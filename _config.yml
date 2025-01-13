@@ -271,6 +271,7 @@ defaults:
       sitemap: false
 
 sass:
+  implementation: sass-embedded
   sourcemap: never
   style: compressed
 
