@@ -1,0 +1,28 @@
+---
+---
+
+@charset "utf-8";
+@use "sass:string";
+
+// Dimensions
+$max-content-width: 800px;
+
+:root {
+  @import
+    "variables",
+    "themes",
+    "layout",
+    "base",
+    "distill",
+    "cv",
+    "tabs",
+    "typograms",
+    "font-awesome/fontawesome",
+    "font-awesome/brands",
+    "font-awesome/solid",
+    "font-awesome/regular",
+    "tabler-icons/tabler-icons",
+    "tabler-icons/tabler-icons-filled",
+    "tabler-icons/tabler-icons-outline",
+    "flag-icons/flag-icons";
+}
